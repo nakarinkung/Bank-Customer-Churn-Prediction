@@ -14,10 +14,10 @@ By analysing customer demographics, account activity, and engagement patterns, t
 ---
 
 ## Project Goals
-- Perform **data exploration and cleaning**
-- Build and compare multiple **machine learning models**  
-- Improve model performance using **oversampling** for class imbalance  
-- Interpret model predictions with **SHAP analysis**  
+- Perform data exploration and cleaning
+- Build and compare multiple machine learning models 
+- Improve model performance using oversampling for class imbalance  
+- Interpret model predictions with SHAP analysis  
 - Identify key features driving customer churn  
 
 ---
@@ -45,10 +45,10 @@ Each row represents a bank customer with demographic and financial information.
 
 ## Data Preprocessing
 - Removed missing and duplicate entries  
-- Handled **outliers** in numerical features  
-- Applied **label encoding** / **one-hot encoding** to categorical variables  
-- **Scaled** numerical variables for consistent model performance  
-- **Oversampling** (e.g., SMOTE) applied to balance churn vs. non-churn classes  
+- Handled outliers in numerical features  
+- Applied label encoding / one-hot encoding to categorical variables  
+- Scaled numerical variables for consistent model performance  
+- Oversampling (e.g., SMOTE) applied to balance churn vs. non-churn classes  
 
 ---
 
@@ -99,7 +99,7 @@ Visuals include:
 | Random Forest | Higher | High | Balanced performance |
 | XGBoost | Highest | Excellent | Best model overall |
 
-➡️ **XGBoost achieved the best predictive performance**, providing strong accuracy and explainability with SHAP.
+-> **XGBoost achieved the best predictive performance**, providing strong accuracy and explainability with SHAP.
 
 ---
 
@@ -115,7 +115,7 @@ Visuals include:
 ---
 
 ## Key Takeaways
-- Machine learning can effectively **predict churn** with reasonable accuracy.  
+- Machine learning can effectively predict churn with reasonable accuracy.  
 - **XGBoost** provides the best balance between accuracy and interpretability.  
 - **Customer activity, age, and geography** are critical signals for churn.  
 - **SHAP** enables transparent insights into model decisions, supporting business action.  
